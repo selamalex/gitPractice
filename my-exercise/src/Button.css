@@ -1,7 +1,18 @@
 .DisplayButton {
     background-color: aqua;
     color: black;
-    margin: 10px;
+    margin: 13px;
+    width: 300px;
+    height: 50px;
+    border: solid aqua;
+    font-size: large;
+
+}
+
+.EvenDisplayButton {
+    background-color: aqua;
+    color: black;
+    margin: 13px;
     width: 300px;
     height: 50px;
     border: solid aqua;
@@ -10,16 +21,56 @@
 }
 
 .Button1 {
-    background-color: rgb(255, 191, 0);
-    color: rgb(255, 4, 0);
+    background-color: rgb(18, 222, 154);
+    color: blue;
     font-size: large;
-    margin: 10px;
+    margin: 20px;
+    margin-left: 10%;
     width: 100px;
     height: 50px;
-    border: solid rgb(255, 4, 0);
-    border-radius: 20px;
+    border: solid rgb(18, 222, 154);
+
 }
 
 :hover.Button1 {
     opacity: 0.5;
+}
+
+.ChangeViewer {
+    margin-left: 10%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(18, 222, 154);
+    color: blue;
+    font-size: larger;
+    border: solid rgb(18, 222, 154);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Button2 {
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: blue;
+    font-size: larger;
+    border: solid aquamarine;
+
+}
+
+:hover.Button2,
+:hover.Button3 {
+    opacity: 0.5;
+}
+
+.Button3 {
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    background-color: aquamarine;
+    color: blue;
+    font-size: larger;
+    border: solid aquamarine;
+    margin-bottom: 20px
 }
