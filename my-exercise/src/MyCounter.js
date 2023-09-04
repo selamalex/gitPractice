@@ -23,6 +23,7 @@ class Count extends Component{
     render(){
         return(
             <div>
+                 <h2>Question number 1 and 2</h2>
             <button className='Button1' onClick={this.increment}>Click here</button>
             <Counter value={this.state.value}/>
             <EvenCounter value={this.state.value}/>
